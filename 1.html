@@ -1,0 +1,44 @@
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./1.css">
+    <title>Cadastro usuário</title>
+  </head>
+  
+  <body>
+    <header class="header">
+      <h1>Cadastro de usuário</h1>
+    </header>
+    <div class="container">
+      <form action="cadastro.php" method="POST">
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" id="nome">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+        <label for="senha">Senha</label>
+        <input type="password" name="senha" id="senha">
+        <label for="data_nascimento">Data de nascimento</label>
+        <input type="date" name="data_nascimento" id="data_nascimento">
+        <label for="sexo">Sexo</label>
+        <select name="sexo" id="sexo">
+          <option value="M">Masculino</option>
+          <option value="F">Feminino</option>
+        </select>
+        <label for="estado_civil">Estado civil</label>
+        <select name="estado_civil" id="estado_civil">
+          <option value="solteiro">Solteiro</option>
+          <option value="casado">Casado</option>
+          <option value="divorciado">Divorciado</option>
+          <option value="viuvo">Viúvo</option>
+          <input type="submit" value="Cadastrar">
+      </form>
+    </div>
+  
+  </body>
+  
+  </html>
+  
+  
